@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
         paddingTop: 15,
         height: '100%',
         width: '100%',
-
     },
     topSection: {
         height: '20%',

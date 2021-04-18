@@ -316,7 +316,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     bottomPartButton: {
-        height: height * 0.16,
+        height: 120,
         borderTopWidth: 1.5,
         borderColor: ColourPalette.purple,
         backgroundColor: ColourPalette.lightPurple,

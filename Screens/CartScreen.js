@@ -164,8 +164,10 @@ const styles = StyleSheet.create({
     closeButton: {
         position: 'absolute',
         left: 10,
-        top: 25,
+        top: 30,
         padding: 5,
+        width:50,
+        height:50,
     },
     horizontalOptions: {
         maxHeight: height * 0.4,

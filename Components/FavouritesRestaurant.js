@@ -45,9 +45,11 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         marginBottom: 20,
         overflow: 'hidden',
-        width: '100%',
+        width: '97%',
         height: 230,
         elevation: 0.5,
+        marginHorizontal: '1.5%',
+
     },
     upperSection: {
         flex: 7,
@@ -60,6 +62,7 @@ const styles = StyleSheet.create({
         paddingRight: 10,
         paddingLeft: 10,
         paddingBottom: 14,
+
     },
     image: {
         width: '100%',

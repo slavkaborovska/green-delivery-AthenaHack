@@ -124,11 +124,12 @@ const ImpactScreen = () => {
                         backgroundColor: "#f0f1fa",
                         padding: 10,
                         borderRadius: 16,
-                        margin: 10
+                        margin: 10,
+
                     }}>
                         <Image source={require('../Resources/LinksImages/recycling.png')}
                                style={{height: 70, width: 70, marginRight: 10}}/>
-                        <View style={{justifyContent: 'center'}}>
+                        <View style={{justifyContent: 'center', width:'75%'}}>
                             <Text style={{fontWeight: 'bold', fontSize: 17}}>Guide to recycling</Text>
                             <Text>Click to learn about correct ways to recycle</Text>
                         </View>
@@ -147,7 +148,7 @@ const ImpactScreen = () => {
                     }}>
                         <Image source={require('../Resources/LinksImages/travelling.png')}
                                style={{height: 70, width: 70, marginRight: 10}}/>
-                        <View style={{justifyContent: 'center'}}>
+                        <View style={{justifyContent: 'center', width:'75%'}}>
                             <Text style={{fontWeight: 'bold', fontSize: 17}}>Green travelling</Text>
                             <Text>Click to see green ways get around London</Text>
                         </View>
@@ -166,9 +167,9 @@ const ImpactScreen = () => {
                     }}>
                         <Image source={require('../Resources/LinksImages/sustainable.png')}
                                style={{height: 70, width: 70, marginRight: 10}}/>
-                        <View style={{justifyContent: 'center'}}>
+                        <View style={{justifyContent: 'center', width:'75%'}}>
                             <Text style={{fontWeight: 'bold', fontSize: 17}}>Sustainable lifestyle</Text>
-                            <Text>Click to see the ways you can contibute</Text>
+                            <Text>Click to see the ways you can contribute</Text>
                         </View>
                         <Icon2 name="bulb1" size={25} color={ColourPalette.purple} style={{marginLeft: 100}}/>
                     </View>
